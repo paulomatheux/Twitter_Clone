@@ -1,0 +1,220 @@
+.middle-container {
+  width: 45%;
+  font-family: "Chirp", sans-serif;
+  font-weight: 600;
+  border-right: 1px solid #a8aaab2a;
+}
+
+.middle-container .top {
+  border-bottom: 1px solid #a8aaab2a;
+  display: inline-block;
+  width: 100%;
+}
+
+.middle-container .title {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.middle-container .show {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.middle-container .show a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.middle-container .show p {
+  background-color: transparent;
+}
+
+.middle-container .show .fy:hover {
+  background-color: #a8aaab2a;
+}
+
+.middle-container .show .fll:hover {
+  background-color: #a8aaab2a;
+}
+
+.middle-container .write-post {
+  border-bottom: 1px solid #a8aaab2a;
+  display: flex;
+  width: 100%;
+  height: 120px;
+  gap: 15px;
+}
+
+.middle-container .write-post img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.middle-container .write-post .post-text {
+  width: 100%;
+}
+
+.middle-container .write-post input {
+  color: white;
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  border: 0;
+  resize: vertical;
+}
+
+.middle-container .write-post input:focus {
+  outline: 0;
+}
+
+.middle-container .write-post .options-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.middle-container .write-post .post-buttons {
+  display: inline-block;
+  justify-items: center;
+  align-items: center;
+}
+
+.middle-container .write-post .post-buttons a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1877f2;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.middle-container .write-post .post-buttons i {
+  background-color: transparent;
+}
+
+.middle-container .write-post .post-buttons i:hover {
+  box-shadow: 0px 0px 0 5px #1876f26b;
+  border-radius: 50%;
+}
+
+.middle-container .options-bar .tweeter-bt {
+  background-color: #1767cf;
+  text-align: center;
+  padding: 10px 16px 10px 16px;
+  border-radius: 20px;
+  margin-left: 200px;
+}
+
+.middle-container .options-bar a {
+  text-decoration: none;
+}
+
+.middle-container .options-bar .tweeter-bt:hover {
+  background-color: #1877f2;
+}
+
+.middle-container .options-bar .tweeter-bt div {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.middle-container .timeline {
+  display: flex;
+  height: 100vh;
+}
+
+.middle-container .tweet {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid #a8aaab38;
+}
+
+.middle-container .tweet .tweetbt {
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.middle-container .tweet .image {
+  display: inline-block;
+  height: 100%;
+
+}
+
+.middle-container .timeline .tweet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.middle-container .tweet .tweet-body {
+  width: 100%;
+  height: 100%;
+}
+
+.middle-container .tweet .user {
+  width: 100%;
+  display:inline-flex;
+  color: white;
+  height: 35px;
+}
+
+.middle-container .tweet .name {
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.middle-container .tweet .username {
+  color: #a8aaab2a;
+  font-weight: 100;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.middle-container .tweet .dots {
+  color: #a8aaab2a;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.middle-container .tweet .text {
+  color: white;
+  font-weight: 100;
+  height: 45%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.middle-container .tweet .tweet-buttons {
+  text-decoration: none;
+  gap: 80px;
+  height: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.middle-container .tweet .tweet-buttons i{
+  color: #a8aaaba4;
+  font-size: 20px;
+}

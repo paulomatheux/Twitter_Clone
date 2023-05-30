@@ -1,0 +1,8 @@
+.main-container {
+  display: flex;
+  font-family: 'Chirp', sans-serif;
+}
+
+.right-container {
+  border: 1px solid;
+}
